@@ -87,9 +87,9 @@ namespace Xerath
             if (Player.ChampionName != ChampionName) return;
 
             //Create the spells
-            Q = new Spell(SpellSlot.Q, 1550);
+            Q = new Spell(SpellSlot.Q, 1500);
             W = new Spell(SpellSlot.W, 1000);
-            E = new Spell(SpellSlot.E, 1150);
+            E = new Spell(SpellSlot.E, 800);
             R = new Spell(SpellSlot.R, 675);
 
             Q.SetSkillshot(0.6f, 100f, float.MaxValue, false, SkillshotType.SkillshotLine);
